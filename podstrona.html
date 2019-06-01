@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="index.html" method="post">
+        <div>
+           <label for="first-name"> "Podaj imię:"  </label>  
+             <input id="first-name" type="text" name="firstName">
+        </div>
+            <div>
+            Podaj treść: <textarea name="massage" cols="30" rows="10"></textarea>
+            </div>
+            <div> 
+            Wybierz województwo:
+            <select name="province">
+                <option value="1"> Mazowieckie</option>
+                <option value="2"> Śląskie</option>
+                <option value="3"> Pomorskie</option>
+            </select>
+            </div>
+            <div>
+                Hobby:
+            <input type="checkbox" name="hobby" value="sport" id="sport"><label for="sport">Sport</label>
+            <input id="music" type="checkbox" name="hobby" value="music" id="music"><label for="music">Muzyka</label>
+            <input id="books" type="checkbox" name="hobby" value="books" id="books"><label for="books">Ksiązki</label>
+            
+            <div>
+            Płeć:
+            <input type="radio" name="sex" value="F">Kobieta
+            <input type="radio" name="sex" value="M">Mężczyzna
+            </div>
+            <div>    
+            <input type="submit">
+            </div>
+    </form>
+</body>
+
+</html>

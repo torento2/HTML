@@ -1,0 +1,25 @@
+p{
+    color: yellow;
+}
+
+h1{
+    color: goldenrod;
+}
+p .blue {
+    color: blue;
+
+}
+p#red {
+    color: red;
+}
+div {
+    width: 500px;
+    height: 300px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 40px;
+    border: 1px solid black;
+    
+    margin: 30px;
+}
